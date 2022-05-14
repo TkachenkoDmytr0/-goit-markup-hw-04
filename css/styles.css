@@ -14,6 +14,7 @@
     --footer-link-cl: rgba(255, 255, 255, 0.6);
     --border-line: #EEEEEE;
     --header-line: #ECECEC;
+    --social-cl: #AFB1B8;
 
 }
 
@@ -86,6 +87,8 @@ img {
 /*nav*/
 .header-link:hover,
 .header-link:focus,
+.header-icons:hover,
+.header-icons:focus,
 .header-link-contact:hover,
 .header-link-contact:focus,
 .footer-link-contact:hover,
@@ -93,7 +96,10 @@ img {
 .footer-link:hover,
 .footer-link:focus {
     color: var(--bt-nav-cl);
+    fill: var(--bt-nav-cl);
 }
+
+
 
 /*header*/
 .header {
@@ -123,7 +129,6 @@ img {
 
 .header-list {
     display: flex;
-    padding: 0px;
     margin-left: 93px;
 }
 
@@ -133,7 +138,13 @@ img {
 }
 
 .header-item {
-    margin-left: 50px;
+    margin-right: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-item:last-child {
+    margin-right: 0;
 }
 
 .header-item:first-child {
@@ -150,13 +161,17 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--black-cl);
-
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
 .header-link-contact {
+    display: flex;
     color: var(--paragraf-color);
+}
+
+.header-icons {
+    margin-right: 10px;
 }
 
 .accent {
@@ -165,6 +180,7 @@ img {
 
 /*СЕКЦИЯ ГЕРОЙ*/
 .hero {
+    background-image: url(../images/backgroundheader/headerbg.png);
     background-color: var(--hero-background-cl);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -230,6 +246,20 @@ img {
 .peculiarities-item {
     margin-left: 30px;
     width: 270px;
+}
+
+
+
+.peculiarities-icons {
+    display: flex;
+    background-color: var(--team-background-cl);
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+    width: 100%;
+    height: 120px;
+    padding: 25px 102px;
+    margin-bottom: 30px;
 }
 
 .peculiarities-name {
@@ -327,7 +357,90 @@ img {
     line-height: 1.18;
     text-align: center;
     color: var(--paragraf-color);
+    margin-bottom: 16px;
+}
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-item {
+    margin-right: 10px;
+}
+
+.social-item:last-child {
+    margin-right: 0;
+
+}
+
+.social-link {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.social-icons {
+    display: flex;
+    fill: var(--social-cl);
+}
+
+.social-link:hover,
+.social-link:focus,
+.footer-social-link:hover,
+.footer-social-link:focus {
+    fill: var(--background-cl-body);
+    background-color: var(--bt-nav-cl);
+}
+
+/* Клиенты */
+.clients {}
+
+.client-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+    color: var(--text-black-cl);
+
+    margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-item {
+    margin-right: 30px;
+}
+
+.client-item:last-child {
+    margin-right: 0;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: var(--social-cl);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    fill: var(--bt-nav-cl);
+    border-color: var(--bt-cl);
 }
 
 /*footer*/
@@ -336,6 +449,12 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.footer-box {
+    display: flex;
+}
+
+
 
 .footer-logo {
     font-family: 'Raleway';
@@ -350,6 +469,10 @@ img {
 
 .logo-cl {
     color: var(--logo-cl);
+}
+
+.footer-box-adress {
+    margin-right: 70px;
 }
 
 .footer-item {
@@ -372,6 +495,43 @@ img {
     font-weight: 400;
     line-height: 1.71;
     color: var(--footer-link-cl);
+}
+
+.footer-title {
+    font-weight: 700;
+    line-height: 1.14px;
+    text-transform: uppercase;
+    color: var(--background-cl-body);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+}
+
+.footer-item-social {
+    display: flex;
+    margin-right: 10px;
+}
+
+.footer-item-social:last-child {
+    margin-right: 0%;
+}
+
+.footer-social-link {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    fill: var(--background-cl-body);
+
+
 }
 
 /*портфолио*/
