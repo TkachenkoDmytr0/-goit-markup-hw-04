@@ -84,7 +84,11 @@ img {
 
 
 
-/*nav*/
+/*
+============================
+        nav
+============================
+ */
 .header-link:hover,
 .header-link:focus,
 .header-icons:hover,
@@ -101,7 +105,11 @@ img {
 
 
 
-/*header*/
+/*
+============================
+        Header
+============================
+ */
 .header {
     border-bottom: 1px solid var(--header-line);
 }
@@ -178,7 +186,11 @@ img {
     color: var(--bt-nav-cl);
 }
 
-/*СЕКЦИЯ ГЕРОЙ*/
+/*
+============================
+        Герой
+============================
+ */
 .hero {
     background-image: url(../images/backgroundheader/headerbg.png);
     background-color: var(--hero-background-cl);
@@ -230,7 +242,11 @@ img {
     background: var(--bt-cl-secondary);
 }
 
-/*особенности*/
+/*
+============================
+        особености
+============================
+ */
 .peculiarities-name {
     font-size: 14px;
     font-weight: 700;
@@ -280,7 +296,11 @@ img {
     color: var(--paragraf-color);
 }
 
-/*публикация работ*/
+/*
+============================
+        публикация работ
+============================
+ */
 .work {
     padding-top: 0;
 }
@@ -312,7 +332,10 @@ img {
     margin-left: 0px;
 }
 
-/*команда*/
+/*
+============================
+            Команда
+ =========================== */
 .team {
     background-color: var(--team-background-cl);
 }
@@ -398,14 +421,16 @@ img {
     background-color: var(--bt-nav-cl);
 }
 
-/* Клиенты */
-.clients {}
+/*
+============================
+            Клиенты
+ ===========================
+*/
 
 .client-title {
     font-weight: 700;
-    font-style: normal;
     font-size: 36px;
-    line-height: 1.16px;
+    line-height: 1.16;
     text-align: center;
     color: var(--text-black-cl);
 
@@ -443,7 +468,11 @@ img {
     border-color: var(--bt-cl);
 }
 
-/*footer*/
+/*
+=====================================
+                footer
+=====================================
+*/
 .footer {
     background-color: var(--hero-background-cl);
     padding-top: 60px;
@@ -497,13 +526,19 @@ img {
     color: var(--footer-link-cl);
 }
 
-.footer-title {
+/*
+============================
+ footer social
+ ===========================
+ */
+
+.footer-text {
     font-weight: 700;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
+    width: 145px;
     color: var(--background-cl-body);
-    justify-content: center;
-    align-items: center;
+
     margin-bottom: 20px;
 }
 
@@ -517,7 +552,7 @@ img {
 }
 
 .footer-item-social:last-child {
-    margin-right: 0%;
+    margin-right: 0;
 }
 
 .footer-social-link {
@@ -534,7 +569,11 @@ img {
 
 }
 
-/*портфолио*/
+/*
+============================
+        Портфолио
+ ===========================
+ */
 .servise-list {
     display: flex;
     justify-content: center;
@@ -577,7 +616,11 @@ img {
     background: var(--bt-cl);
 }
 
-/*проекты*/
+/*
+============================
+        проекты
+ ===========================
+ */
 .projects-list {
     display: flex;
     flex-wrap: wrap;
