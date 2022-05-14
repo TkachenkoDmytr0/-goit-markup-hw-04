@@ -193,6 +193,7 @@ img {
  */
 .hero {
     background-image: url(../images/backgroundheader/headerbg.png);
+    background-repeat: no-repeat;
     background-color: var(--hero-background-cl);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -629,6 +630,12 @@ img {
 .projects-item {
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.projects-item:hover,
+.projects-item:focus {
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-item:nth-child(3n+3) {
