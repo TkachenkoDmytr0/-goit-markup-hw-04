@@ -175,6 +175,8 @@ img {
 
 .header-link-contact {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--paragraf-color);
 }
 
