@@ -103,8 +103,6 @@ img {
     fill: var(--bt-nav-cl);
 }
 
-
-
 /*
 ============================
         Header
@@ -401,7 +399,7 @@ img {
 
 }
 
-.social-link {
+.team-social-link {
     display: block;
     display: flex;
     justify-content: center;
@@ -409,19 +407,22 @@ img {
     border-radius: 50%;
     width: 44px;
     height: 44px;
+
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background: var(--bt-nav-cl);
+}
+
+.team-social-link:hover .social-icons,
+.team-social-link:focus .social-icons {
+    fill: var(--background-cl-body);
 }
 
 .social-icons {
     display: flex;
     fill: var(--social-cl);
-}
-
-.social-link:hover,
-.social-link:focus,
-.footer-social-link:hover,
-.footer-social-link:focus {
-    fill: var(--background-cl-body);
-    background-color: var(--bt-nav-cl);
 }
 
 /*
@@ -463,6 +464,7 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill: var(--social-cl);
+
 }
 
 .clients-link:hover,
@@ -568,8 +570,11 @@ img {
     width: 44px;
     height: 44px;
     fill: var(--background-cl-body);
+}
 
-
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--bt-cl);
 }
 
 /*
