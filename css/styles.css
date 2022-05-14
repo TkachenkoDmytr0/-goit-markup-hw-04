@@ -536,6 +536,10 @@ img {
  footer social
  ===========================
  */
+.footer-box-social {
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
 
 .footer-text {
     font-weight: 700;
@@ -543,7 +547,6 @@ img {
     text-transform: uppercase;
     width: 145px;
     color: var(--background-cl-body);
-
     margin-bottom: 20px;
 }
 
