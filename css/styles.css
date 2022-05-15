@@ -100,7 +100,7 @@ img {
 .footer-link:hover,
 .footer-link:focus {
     color: var(--bt-nav-cl);
-    fill: var(--bt-nav-cl);
+
 }
 
 /*
@@ -144,21 +144,19 @@ img {
 }
 
 .header-item {
-    margin-right: 30px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-right: 50px;
 }
 
 .header-item:last-child {
     margin-right: 0;
 }
 
-.header-item:first-child {
-    margin-left: 0px;
+.header-item-contact {
+    margin-right: 30px;
 }
 
-.header-item:last-child {
-    margin-right: 0px;
+.header-item-contact:last-child {
+    margin-right: 0;
 }
 
 .header-link,
@@ -176,6 +174,7 @@ img {
     justify-content: center;
     align-items: center;
     color: var(--paragraf-color);
+    fill: currentColor;
 }
 
 .header-icons {
@@ -192,9 +191,12 @@ img {
 ============================
  */
 .hero {
-    background-image: url(../images/backgroundheader/headerbg.png);
+    background-image: url(../images/backgroundheader/headerbg\ \(1\).jpg);
     background-repeat: no-repeat;
     background-color: var(--hero-background-cl);
+    background-size: cover;
+    max-width: 1600px;
+    height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -387,7 +389,6 @@ img {
 .social-list {
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
 .social-item {
@@ -443,7 +444,6 @@ img {
 
 .client-list {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -486,6 +486,7 @@ img {
 
 .footer-box {
     display: flex;
+    align-items: baseline;
 }
 
 
@@ -536,16 +537,11 @@ img {
  footer social
  ===========================
  */
-.footer-box-social {
-    padding-top: 12px;
-    padding-bottom: 40px;
-}
 
 .footer-text {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-    width: 145px;
     color: var(--background-cl-body);
     margin-bottom: 20px;
 }
@@ -605,8 +601,8 @@ img {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    letter-spacing: 0.03em;
     background: var(--team-background-cl);
-    border-radius: 4px;
     color: var(--text-black-cl);
     cursor: pointer;
 
@@ -642,9 +638,8 @@ img {
     margin-bottom: 30px;
 }
 
-.projects-item:hover,
-.projects-item:focus {
-    cursor: pointer;
+.projects-link:hover .project-box,
+.projects-item:focus .project-box {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
