@@ -191,7 +191,7 @@ img {
 ============================
  */
 .hero {
-    background-image: url(../images/backgroundheader/img.jpg);
+    background-image: url(../images/backgroundheader/headerbg.png), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
     background-repeat: no-repeat;
     background-color: var(--hero-background-cl);
     background-size: cover;
@@ -331,9 +331,7 @@ img {
     margin-left: 30px;
 }
 
-
-
-.work-images:first-child {
+w .work-images:first-child {
     margin-left: 0px;
 }
 
